@@ -332,7 +332,7 @@ function list_races(){
 				<p><?php echo get_the_excerpt($mypost->ID); ?></p>
 				<em>Posted by: <?php echo get_the_author(); ?> - <?php echo get_the_date('F j, Y', $mypost->ID); ?></em><br><br>
 				
-				<button class="button" href="<?php echo get_permalink($mypost->ID); ?>">Read More</button>
+				<a class="button" href="<?php echo get_permalink($mypost->ID); ?>">Read More</a>
 			
 			</article>
 
